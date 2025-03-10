@@ -176,7 +176,7 @@
       <div class="container">
         <div class="columns is-vcentered  is-centered">
             <div class="item item-steve"></div>
-            <iframe width="984" height="554" src="./resources/dars/real_robo.mp4" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
+            <iframe width="984" height="554" src="./resources/dars/real_robot.mp4" frameborder="0" allowfullscreen="allowfullscreen"></iframe>
           </div>
           </br>
         </div>
@@ -271,7 +271,7 @@
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-full-width">
-          <h1 class="title is-2" style="text-align: center; padding-bottom: 10px;">Neural Motion Planner</h1>
+          <h1 class="title is-2" style="text-align: center; padding-bottom: 10px;">DARS Pipeline</h1>
 
           <div class="columns is-centered has-text-centered">
           <div class="column is-two-thirds ">
@@ -287,7 +287,7 @@
               <div class="columns is-centered has-text-centered">
                 <div class="column is-two-thirds">
                 <div class="content has-text-justified interpolation-panel">
-                    <p style="text-align: center;font-size: 18px">We present Neural Motion Planner, which consists of 3 main components. <b>Left</b>: Large Scale data generation in simulation using expert planners <b>Middle</b>: Training deep network models to perform fast reactive motion planning <b>Right</b>: Test-time optimization to ensure safe and reliable deployment </p>
+                    <p style="text-align: center;font-size: 18px">We present Dual-Arm Robotic System, which consists of 3 main components. <b>Left</b>: Defining the desired 3D scanning paths on virtual sphere <b>Region-Based Motion Planning</b>: Divide the virtual sphere into segments and regions to acheive feasible motion planning for manipulators <b>Low Level Control</b>: Varified trajectories are executed on real robotic setup which perform 3D scanning of cultural heritage artefacts </p>
                 </div>
               </div>
             </div>
@@ -302,7 +302,7 @@
     <div class="container">
       <div class="columns is-centered">
         <div class="column is-full-width">
-          <h2 class="title is-4" style="text-align: center;">All videos play at 2x speed</h2>
+          <h2 class="title is-4" style="text-align: center;">All videos play at x speed</h2>
         </div> 
       </div>
     </div>
@@ -312,25 +312,25 @@
     <div class="container">
         <div class="columns is-centered">
           <div class="column is-full-width">
-                <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><strong>Neural MP solves motion planning tasks with complex unseen object configurations.</strong></h3>
+                <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><strong>DARS solves motion planning tasks considering each curve of the given region maintaining required distance</strong></h3>
                 <div class="columns">
                     <div class="column">
                         <video class="center" playsinline autoplay loop controls muted src="./resources/eval/Eval Bins compressed.mp4" width="100%" style="border-radius:10px;"></video>
-                        <p style="text-align: center; font-size: 18px">Bins: 100%</p>
+                        <p style="text-align: center; font-size: 18px">: Curve 1</p>
                     </div>
                     <div class="column">
                         <video class="center" playsinline autoplay loop controls muted src="./resources/eval/Eval Shelf compressed.mp4" width="100%" style="border-radius:10px;"></video>
-                        <p style="text-align: center; font-size: 18px">Shelf: 100%</p>
+                        <p style="text-align: center; font-size: 18px">Curve 2</p>
                     </div>
                 </div>
                 <div class="columns">
                   <div class="column">
                     <video class="center" playsinline autoplay loop controls muted src="./resources/eval/Eval Cabinet compressed.mp4" width="100%" style="border-radius:10px;"></video>
-                    <p style="text-align: center; font-size: 18px">Articulated: 87.5%</p>
+                    <p style="text-align: center; font-size: 18px">Curve 3</p>
                 </div>
                 <div class="column">
                   <video class="center" playsinline autoplay loop controls muted src="./resources/eval/Eval In Hand compressed.mp4" width="100%" style="border-radius:10px;"></video>
-                  <p style="text-align: center; font-size: 18px">In Hand: 81.25%</p>
+                  <p style="text-align: center; font-size: 18px">All Curves</p>
               </div>
               </div>
             </div>
@@ -342,35 +342,35 @@
     <div class="container">
         <div class="columns is-centered">
           <div class="column is-full-width">
-                <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><strong>Neural MP generalizes to out of distribution obstacles and in-hand objects</strong></h3>
+                <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><strong>DARS provide high quality 3D scanning results </strong></h3>
                 <div class="columns">
                   <div class="column">
                       <video class="center" playsinline autoplay loop controls muted src="./resources/sword compressed.mp4" width="100%" style="border-radius:10px;"></video>
-                      <p style="text-align: center; font-size: 18px">Minecraft Sword</p>
+                      <p style="text-align: center; font-size: 18px">Artefact 1</p>
                   </div>
                   <div class="column">
                       <video class="center" playsinline autoplay loop controls muted src="./resources/gallery_compressed/bookcase 1.mp4" width="100%" style="border-radius:10px;"></video>
-                      <p style="text-align: center; font-size: 18px">Shelf to Bookcase</p>
+                      <p style="text-align: center; font-size: 18px">Artefact 2</p>
                   </div>
                 </div>
                 <div class="columns">
                   <div class="column">
                     <video class="center" playsinline autoplay loop controls muted src="./resources/gallery_compressed/bookcase 2.mp4" width="100%" style="border-radius:10px;"></video>
-                    <p style="text-align: center; font-size: 18px">Bookcase from Side</p>
+                    <p style="text-align: center; font-size: 18px">Artefact 3</p>
                 </div>
                     <div class="column">
                         <video class="center" playsinline autoplay loop controls muted src="./resources/gpu compressed.mp4" width="100%" style="border-radius:10px;"></video>
-                        <p style="text-align: center; font-size: 18px">GPU into Cabinet Drawer</p>
+                        <p style="text-align: center; font-size: 18px">Artefact 4</p>
                   </div>
                 </div>
                 <div class="columns">
                   <div class="column">
                     <video class="center" playsinline autoplay loop controls muted src="./resources/gallery_compressed/big shelf 2.mp4" width="100%" style="border-radius:10px;"></video>
-                    <p style="text-align: center; font-size: 18px">Long Pasta in Microwave</p>
+                    <p style="text-align: center; font-size: 18px">Artefact 5</p>
                 </div>
                     <div class="column">
                         <video class="center" playsinline autoplay loop controls muted src="./resources/gallery_compressed/bookcase 3.mp4" width="100%" style="border-radius:10px;"></video>
-                        <p style="text-align: center; font-size: 18px">Bookcase from Behind</p>
+                        <p style="text-align: center; font-size: 18px">Artefact 6</p>
                   </div>
                 </div>
                 
@@ -383,119 +383,17 @@
   <div class="container">
       <div class="columns is-centered">
         <div class="column is-full-width">
-              <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><strong>Neural MP extends directly to unstructured, in-the-wild scenes</strong></h3>
-              <div class="columns">
-                <div class="column">
-                    <video class="center" playsinline autoplay loop controls muted src="./resources/in the wild compressed/bottle.mp4" width="100%" style="border-radius:10px;"></video>
-                    <p style="text-align: center; font-size: 18px">Tidying Cabinet</p>
-                </div>
-                <div class="column">
-                    <video class="center" playsinline autoplay loop controls muted src="./resources/in the wild compressed/coffee.mp4" width="100%" style="border-radius:10px;"></video>
-                    <p style="text-align: center; font-size: 18px">Making Coffee</p>
-                </div>
-              </div>
-              <div class="columns">
-                <div class="column">
-                  <video class="center" playsinline autoplay loop controls muted src="./resources/in the wild compressed/dish rack.mp4" width="100%" style="border-radius:10px;"></video>
-                  <p style="text-align: center; font-size: 18px">Drying Plates</p>
-              </div>
-                  <div class="column">
-                      <video class="center" playsinline autoplay loop controls muted src="./resources/in the wild compressed/ketchup.mp4" width="100%" style="border-radius:10px;"></video>
-                      <p style="text-align: center; font-size: 18px">Rearranging Ketchup</p>
-                </div>
-              </div>
-              <div class="columns">
-                <div class="column">
-                  <video class="center" playsinline autoplay loop controls muted src="./resources/in the wild compressed/soap.mp4" width="100%" style="border-radius:10px;"></video>
-                  <p style="text-align: center; font-size: 18px">Cleaning Dishes</p>
-              </div>
-                  <div class="column">
-                      <video class="center" playsinline autoplay loop controls muted src="./resources/in the wild compressed/meat.mp4" width="100%" style="border-radius:10px;"></video>
-                      <p style="text-align: center; font-size: 18px">Defrosting Meat</p>
-                </div>
-              </div>
-              
-          </div>
-      </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-      <div class="columns is-centered">
-        <div class="column is-full-width">
-              <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><strong>Neural MP can motion plan in a dynamic, reactive manner</strong></h3>
-              <div class="columns">
-                  <div class="column">
-                      <video class="center" playsinline autoplay loop controls muted src="./resources/dynamic_compressed/sword 2x.mp4" width="100%" style="border-radius:10px;"></video>
-                      <p style="text-align: center; font-size: 18px">Sword Dodging</p>
-                  </div>
-                  <div class="column">
-                      <video class="center" playsinline autoplay loop controls muted src="./resources/dynamic_compressed/pod 2x.mp4" width="100%" style="border-radius:10px;"></video>
-                      <p style="text-align: center; font-size: 18px">Multi-stage Obstacle Avoidance</p>
-                    </div>
-              </div>
-          </div>
-      </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-      <div class="columns is-centered">
-        <div class="column is-full-width">
-              <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><strong>Neural MP is trained using 6 classes of procedurally generated objects with significant size, shape and pose variation. </strong></h3>
-              <div class="columns">
-                <div class="column">
-                    <video class="center" playsinline autoplay loop controls muted src="./resources/sim vids compressed/cubby.mp4" width="100%" style="border-radius:10px;"></video>
-                    <p style="text-align: center; font-size: 18px">Cubby</p>
-                </div>
-                <div class="column">
-                    <video class="center" playsinline autoplay loop controls muted src="./resources/sim vids compressed/dishwasher.mp4" width="100%" style="border-radius:10px;"></video>
-                    <p style="text-align: center; font-size: 18px">Dishwasher</p>
-                </div>
-              </div>
-              <div class="columns">
-                <div class="column">
-                  <video class="center" playsinline autoplay loop controls muted src="./resources/sim vids compressed/microwave.mp4" width="100%" style="border-radius:10px;"></video>
-                  <p style="text-align: center; font-size: 18px">Microwaves</p>
-              </div>
-                  <div class="column">
-                      <video class="center" playsinline autoplay loop controls muted src="./resources/sim vids compressed/openbox.mp4" width="100%" style="border-radius:10px;"></video>
-                      <p style="text-align: center; font-size: 18px">Boxes</p>
-                </div>
-              </div>
-              <div class="columns">
-                <div class="column">
-                  <video class="center" playsinline autoplay loop controls muted src="./resources/sim vids compressed/shelves.mp4" width="100%" style="border-radius:10px;"></video>
-                  <p style="text-align: center; font-size: 18px">Shelves</p>
-              </div>
-                  <div class="column">
-                      <video class="center" playsinline autoplay loop controls muted src="./resources/sim vids compressed/wallcabinet.mp4" width="100%" style="border-radius:10px;"></video>
-                      <p style="text-align: center; font-size: 18px">Cabinets</p>
-                </div>
-              </div>
-              
-          </div>
-      </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container">
-      <div class="columns is-centered">
-        <div class="column is-full-width">
-              <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><strong>Neural MP Data Generation Process</strong></h3>
+              <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><strong>Ground Truth Data Generation</strong></h3>
               <div class="columns">
                   <div class="column">
                     <h2 class="subtitle">
-                      Full procedural environment generation pipeline which randomly samples programmatic obstacles and objects to create diverse scenes.
+                      Description
                     </h2>
                       <video class="center" playsinline autoplay loop controls muted src="./resources/sim vids compressed/random montage .5x.mp4" width="100%" style="border-radius:10px;"></video>
                   </div>
                   <div class="column">
                     <h2 class="subtitle">
-                      Expert data generation involves sampling challenging motion planning configurations such as those inside obstacles.
+                      G.T
                     </h2>
                       <video class="center" playsinline autoplay loop controls muted src="./resources/sim vids compressed/full_trajectories.mp4" width="100%" style="border-radius:10px;"></video>
                   </div>
@@ -505,28 +403,29 @@
   </div>
 </section>
 
+<!--
 <section class="section">
   <div class="container">
       <div class="columns is-centered">
         <div class="column is-full-width">
-              <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><strong>Test-time Optimization Analysis</strong></h3>
+              <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;"><strong>Optimization and Analysis</strong></h3>
               <div class="columns">
                   <div class="column">
                       <video class="center" playsinline autoplay loop controls muted src="./resources/tto_analysis/tto_worst_idx76_cropped.mp4" width="100%" style="border-radius:10px;"></video>
                       <h2 class="subtitle">
-                        Low quality path, significant collisions. Objective Value (num scene points in collision): <b>1276</b>
+                        Low quality path, significant collisions: <b>Number of Objects: 4</b>
                       </h2>
                   </div>
                   <div class="column">
                       <video class="center" playsinline autoplay loop controls muted src="./resources/tto_analysis/tto_medium_idx95_cropped.mp4" width="100%" style="border-radius:10px;"></video>
                       <h2 class="subtitle">
-                        Medium-low quality path, some collisions. Objective Value (num scene points in collision): <b>233</b>
+                        Medium-low quality path, some collisions. <b>Number of Objects: 4</b>
                       </h2>
                   </div>
                   <div class="column">
                       <video class="center" playsinline autoplay loop controls muted src="./resources/tto_analysis/tto_medium_idx0_cropped.mp4" width="100%" style="border-radius:10px;"></video>
                       <h2 class="subtitle">
-                        Medium quality path, few minor collisions. Objective Value (num scene points in collision): <b>159</b>
+                        Medium quality path, few minor collisions. Objective Value (num scene points in collision): <b>Number of Objects: 4</b>
                       </h2>
                   </div>
                   <div class="column">
@@ -537,8 +436,6 @@
                   </div>
               </div>
               <h2 class="subtitle">
-                We visualize the range of paths induced by our model. As you can see, in general there is a range of trajectories produced by our model, with the best trajectory being collision free and the worst trajectory having multiple collisions.
-                Test-time optimization is used to ensure we only deploy the best trajectories on the robot by optimizing for trajectories that have the fewest number of scene points in collision with the robot.
               </h2>
           </div>
       </div>
@@ -570,14 +467,14 @@
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <section class="section">
   <div class="container">
       <div class="columns is-centered">
           <div class="column is-full-width">
               <h3 class="title is-3" style="text-align: center; padding-bottom: 10px;">
-                  <strong>Neural MP solves motion planning tasks with significant variation across poses, objects, obstacles, backgrounds, scene arrangements, in-hand objects, and start/goal pairs.</strong>
+                  <strong> Additional Results</strong>
               </h3>
               <div class="columns">
                   <div class="column">
@@ -715,12 +612,14 @@
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
     <h2 class="title">BibTeX</h2>
+    <!--
     <pre><code>@article{dalal2024neuralmp,
 title={Neural MP: A Generalist Neural Motion Planner},
 author={Murtaza Dalal and Jiahui Yang and Russell Mendonca and Youssef Khaky and Ruslan Salakhutdinov and Deepak Pathak},
 journal = {arXiv preprint arXiv:2409.05864},
 year={2024},
-} </code></pre>
+
+} --> </code></pre>
   </div>
 </section>
 
